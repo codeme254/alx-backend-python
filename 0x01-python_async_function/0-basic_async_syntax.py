@@ -10,10 +10,10 @@ that waits for a random delay between 0 and max_delay
 import random
 
 
-async def wait_random(max_delay: int = 10):
+async def wait_random(max_delay: int = 10) -> float:
     """
     Wait for a random time between 0 and max_delay
     Return that time that it waited for
     """
-    random_wait_time = random.uniform(0, max_delay)
+    random_wait_time: float = random.uniform(0, max_delay)
     return random_wait_time
