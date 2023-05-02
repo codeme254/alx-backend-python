@@ -6,7 +6,6 @@ that waits for a random delay between 0 and max_delay
 (included and float value) seconds and eventually returns it.
 """
 
-# import asyncio
 import random
 
 
